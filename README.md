@@ -1,5 +1,6 @@
 # IaC-Repo
-Using AWS Code Pipeline deploy CloudFormation Template 
+
+Deploy CloudFormation Template using AWS Code Pipeline 
 
 What is Git ? 
   1. Git is a software and it is a command line tool .
