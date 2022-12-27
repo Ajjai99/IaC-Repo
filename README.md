@@ -38,3 +38,24 @@ Git Commands :
 
 7. git branch 
 
+
+What is AWS CloudFormation ? 
+
+  1. AWS CloudFormation is a service that helps you model and set up AWS resources so that you can spend less time 
+     managing those AWS resources and more time focusing on your applications that run in AWS Cloud .
+  
+  2. You create a template that describes all the AWS resources that you want like Amazon EC2 instance, Amazon RDS DB instance and so 
+     on . 
+
+  3. CloudFormation takes care of provisioning and configuring those AWS resources for you . You don't need to individually 
+     create and configure AWS resources and figure out what's dependent on what, CloudFormation handels that . 
+  
+  4. When you use AWS CloudFormation, you work with two things 'templates' and 'stacks' . You create templates to describe your AWS 
+     resources and their properties . Whenever you create a stack, CloudFormation provisions the resources that are desrcibed in your template . 
+
+AWS CloudFormation Template : 
+
+  1. A CloudFormation template is a JSON or YAML formatted text file. You can save these files with any extension, such as .json, 
+     .yaml, .txt, or .template . 
+
+  2. CloudFormation uses these templates as a blueprint for building AWS resources .
