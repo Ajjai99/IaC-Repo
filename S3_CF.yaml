@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: Create a S3 bucket with version enabled and SSE enabled
+Description: Create a S3 bucket and SSE 
 Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
