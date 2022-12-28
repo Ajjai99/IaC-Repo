@@ -1,0 +1,48 @@
+What is AWS CloudFormation ? 
+
+ 1. AWS CloudFormation is a service that helps you modal and set up your AWS resources so that you can spend less time managing
+    those resources and more time focusing on your applications that run in AWS . 
+
+ 2. CloudFormation allows you to modal your infrastructure in a text file . You can use JSON or YAML to describe what resources 
+    you want to create and configure .
+
+ 3. CloudFormation automates the provisioning, configuring, and updating of your infrastructure in a safe and controlled manner .
+    There are no manual steps or controls that can lead to errors . 
+
+ 4. CloudFormation is available at no additional charge. You pay only for the AWS resources needed to run your applications . 
+
+ 5. CloudFormation takes care of provisioning and configuring those resources for you . You don't need to individually create 
+    and configure AWS resources and figure what's dependent on what ; CloudFormation handels that . 
+
+Core Concepts of AWS CloudFormation : 
+
+1. AWS CloudFormation Template : 
+    
+    1. A CloudFormation template is a JSON or YAML formatted text file. You can save these files with any extension, such as 
+       .yml, .json, .txt or .template . 
+
+    2. An AWS CloudFormation template is a declaration of AWS resources that make up a 'Stack' . The template is stored as a 
+       text file in either JSON or YAML format. Because they are just text files, you can create and edit them in any text editor 
+       and manage them in your source control system with the rest of your source code . 
+    
+    3. CloudFormation uses these templates as blueprint for building your AWS resources .
+
+    4. Whenever you create a stack, you also specify a template that CloudFormation uses to create whatever you described 
+       in the template .
+    
+    5. You can also specify multiple resources in a single CloudFormation template and configure these resources 
+       to work together .
+
+2. AWS CloudFormation Stack : 
+
+    1. A stack is a deployment of a CloudFormation template . You can create multiple stacks from a single CloudFormation 
+       template .
+
+    2. A stack contains a collection of resources that you can manage as a single unit . All the resources in a stack are defined 
+       by the stack's AWS CloudFormation template . 
+    
+    3. AWS CloudFormation will create, update and delete a stack in its entirety : 
+            1. If a stack cannot be created or updated in its entirety, AWS CloudFormation will roll it back, and automatically 
+               delete any resources that were created . 
+            2. If a resource cannot be deleted, any remaining reources are retained until the stack can be successfully deleted . 
+
