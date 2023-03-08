@@ -34,10 +34,39 @@ GitHub:
   4. 
 
 
-What is YAML and What's the problem that it's trying to solve?
+YAML : 
 
+What is YAML and What's the problem that it's trying to solve? 
+
+How to work with YAML files? 
 
 When two of the technologies need to talk with each other, they need to agree on certain set of standards that this how you're going to transfer the data.
 For Example, let's just say your back-end is talking in a launguage called Python (django) and your front-end is talking in a lanugage
 called JavaScript (React) they need to talk to each other to transfer the data and they need to agree on certain set of instructions and standards that this is how you're going to send you the data. 
+
+XML, JSON, and YAML are the three major player in setting those standards and transferring data from one tech to another one
+
+They need to agree on certain set of instructions or certain standards that this how we're going to transfer the data. 
+because the lanugage is different and the way how they are storing the data is absoutely different.
+
+In most of the cases they agree that we are going to handle JSON, this is how we're going to talk in the data. 
+This is the process of serialization. 
+
+YAML is a great tool for provisioning the servers. 
+
+YAML is basically a data format and it is used to exchange data. 
+YAML is basically a simple human readable language that can be used to represent data. 
+YAML is used to store some information about some configurations.
+YAML is similar to XML and JSON. 
+In YAML, you can store only data, not the commands. In other words, you cannot add commands, you can only store data. 
+Storing of data in files, In JSON you store data, In XML you store data it is known as Data serialization. 
+
+Object is nothing but a collection of data. let's say you want to share this object or information to an android app or inside of web application, or
+to a machine learning model. There needs to be some sort of a way to have a particular data that you want to share in just one single format
+that can be shared everywhere.
+
+
+
+
+
   

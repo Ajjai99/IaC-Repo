@@ -46,3 +46,4 @@ Core Concepts of AWS CloudFormation :
                delete any resources that were created . 
             2. If a resource cannot be deleted, any remaining reources are retained until the stack can be successfully deleted . 
 
+
