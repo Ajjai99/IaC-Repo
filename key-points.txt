@@ -1,0 +1,43 @@
+
+What is git? 
+
+ Git is a version control system that allows developers to keep track of changes to their code over time and it's great because it 
+ allows developers to work collaboratively on projects without worrying about creating conflicting changes.
+
+ Git is an open source software and free source-code management or what's reffered to as SCM. 
+
+ With Git, You can manage changes to files over time, and you can go back and see what those changes were.
+
+ Git: 
+
+  1. Git is a software
+
+  2. Git is maintained by Linux
+
+  3. Git can manage source code history
+
+  4. Git was released in 2005
+
+  5. Git is focused on source or version control and code sharing
+
+  6. Git is installed locally on the system
+
+
+GitHub: 
+
+  1. 
+
+  2. 
+
+  3. 
+
+  4. 
+
+
+What is YAML and What's the problem that it's trying to solve?
+
+
+When two of the technologies need to talk with each other, they need to agree on certain set of standards that this how you're going to transfer the data.
+For Example, let's just say your back-end is talking in a launguage called Python (django) and your front-end is talking in a lanugage
+called JavaScript (React) they need to talk to each other to transfer the data and they need to agree on certain set of instructions and standards that this is how you're going to send you the data. 
+  
